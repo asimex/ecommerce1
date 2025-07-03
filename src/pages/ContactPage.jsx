@@ -1,8 +1,6 @@
-import React from "react";import { useEnkindlSave } from "../asimex/scripts/enkindlInject";
-
+import React from "react";
 import { Footer, Navbar } from "../components";
 const ContactPage = () => {
-    useEnkindlSave();
   return (
     <>
       <Navbar />

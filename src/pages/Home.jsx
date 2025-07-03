@@ -1,8 +1,6 @@
-import { Navbar, Main, Product, Footer } from "../components";import { useEnkindlSave } from "../asimex/scripts/enkindlInject";
-
+import { Navbar, Main, Product, Footer } from "../components";
 
 function Home() {
-    useEnkindlSave();
   return (
     <>
       <Navbar />

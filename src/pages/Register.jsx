@@ -1,9 +1,7 @@
 import React from 'react'
-import { Footer, Navbar } from "../components";import { useEnkindlSave } from "../asimex/scripts/enkindlInject";
-
+import { Footer, Navbar } from "../components";
 import { Link } from 'react-router-dom';
 const Register = () => {
-    useEnkindlSave();
     return (
         <>
             <Navbar />

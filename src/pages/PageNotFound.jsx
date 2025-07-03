@@ -1,10 +1,8 @@
-import React from "react";import { useEnkindlSave } from "../asimex/scripts/enkindlInject";
-
+import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar } from "../components";
 
 const PageNotFound = () => {
-    useEnkindlSave();
   return (
     <>
       <Navbar />
