@@ -10,6 +10,17 @@
       margin: 0;
     }
 
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+
     .anticon>* {
       line-height: 1;
     }
@@ -9742,8 +9753,8 @@
       width: 2em;
       margin-left: -2.5em;
       background-image: var(--bs-form-switch-bg);
-      background-position-x: left;
-      background-position-y: center;
+      background-position-x: 0%;
+      background-position-y: 50%;
       border-top-left-radius: 2em;
       border-top-right-radius: 2em;
       border-bottom-right-radius: 2em;
@@ -9760,8 +9771,8 @@
     }
 
     .form-switch .form-check-input:checked {
-      background-position-x: right;
-      background-position-y: center;
+      background-position-x: 100%;
+      background-position-y: 50%;
       --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23fff%27/%3e%3c/svg%3e");
     }
 
@@ -9989,8 +10000,7 @@
       padding-right: calc(1.5em + 0.75rem);
       background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 8 8%27%3e%3cpath fill=%27%23198754%27 d=%27M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z%27/%3e%3c/svg%3e");
       background-repeat: no-repeat;
-      background-position-x: right calc(0.375em + 0.1875rem);
-      background-position-y: center;
+      background-position-y: 50%;
       background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
     }
 
@@ -10002,8 +10012,6 @@
     .was-validated textarea.form-control:valid,
     textarea.form-control.is-valid {
       padding-right: calc(1.5em + 0.75rem);
-      background-position-x: right calc(0.375em + 0.1875rem);
-      background-position-y: top calc(0.375em + 0.1875rem);
     }
 
     .form-select.is-valid:not([multiple]):not([size]),
@@ -10012,8 +10020,7 @@
     .was-validated .form-select:valid:not([multiple])[size="1"] {
       --bs-form-select-bg-icon: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 8 8%27%3e%3cpath fill=%27%23198754%27 d=%27M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z%27/%3e%3c/svg%3e");
       padding-right: 4.125rem;
-      background-position-x: right 0.75rem, right 2.25rem;
-      background-position-y: center, center;
+      background-position-y: 50%, 50%;
       background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
     }
 
@@ -10067,8 +10074,7 @@
       padding-right: calc(1.5em + 0.75rem);
       background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 12 12%27 width=%2712%27 height=%2712%27 fill=%27none%27 stroke=%27%23dc3545%27%3e%3ccircle cx=%276%27 cy=%276%27 r=%274.5%27/%3e%3cpath stroke-linejoin=%27round%27 d=%27M5.8 3.6h.4L6 6.5z%27/%3e%3ccircle cx=%276%27 cy=%278.2%27 r=%27.6%27 fill=%27%23dc3545%27 stroke=%27none%27/%3e%3c/svg%3e");
       background-repeat: no-repeat;
-      background-position-x: right calc(0.375em + 0.1875rem);
-      background-position-y: center;
+      background-position-y: 50%;
       background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
     }
 
@@ -10080,8 +10086,6 @@
     .was-validated textarea.form-control:invalid,
     textarea.form-control.is-invalid {
       padding-right: calc(1.5em + 0.75rem);
-      background-position-x: right calc(0.375em + 0.1875rem);
-      background-position-y: top calc(0.375em + 0.1875rem);
     }
 
     .form-select.is-invalid:not([multiple]):not([size]),
@@ -10090,8 +10094,7 @@
     .was-validated .form-select:invalid:not([multiple])[size="1"] {
       --bs-form-select-bg-icon: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 12 12%27 width=%2712%27 height=%2712%27 fill=%27none%27 stroke=%27%23dc3545%27%3e%3ccircle cx=%276%27 cy=%276%27 r=%274.5%27/%3e%3cpath stroke-linejoin=%27round%27 d=%27M5.8 3.6h.4L6 6.5z%27/%3e%3ccircle cx=%276%27 cy=%278.2%27 r=%27.6%27 fill=%27%23dc3545%27 stroke=%27none%27/%3e%3c/svg%3e");
       padding-right: 4.125rem;
-      background-position-x: right 0.75rem, right 2.25rem;
-      background-position-y: center, center;
+      background-position-y: 50%, 50%;
       background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
     }
 
@@ -10785,8 +10788,8 @@
       vertical-align: middle;
       background-image: var(--bs-navbar-toggler-icon-bg);
       background-repeat: no-repeat;
-      background-position-x: center;
-      background-position-y: center;
+      background-position-x: 50%;
+      background-position-y: 50%;
       background-size: 100%;
     }
 
@@ -12801,8 +12804,8 @@
     .gjs-sm-list.gjs-clm-field .gjs-sm-icon,
     .gjs-sm-list.gjs-clm-select .gjs-sm-icon {
       background-repeat: no-repeat;
-      background-position-x: center;
-      background-position-y: center;
+      background-position-x: 50%;
+      background-position-y: 50%;
       text-shadow: none;
       line-height: normal;
     }
@@ -13475,8 +13478,8 @@
     }
 
     .sp-initial .sp-clear-display {
-      background-position-x: center;
-      background-position-y: center;
+      background-position-x: 50%;
+      background-position-y: 50%;
     }
 
     .sp-palette .sp-thumb-el {
@@ -15442,7 +15445,7 @@
       </div>
     </nav>
     <div class="container my-3 py-3">
-      <h1 class="text-center">Contact me</h1>
+      <h1 class="text-center">Contact me 2</h1>
       <hr />
       <div class="row my-4 h-100">
         <div class="col-md-4 col-lg-4 col-sm-8 mx-auto">
@@ -15471,7 +15474,7 @@
     </footer>
     <div></div>
   </div>
-  <div data-ext- class="cgw-ext"></div><cgw-writer-modal data-wxt-shadow-root=""
+  <div data-ext-="" class="cgw-ext"></div><cgw-writer-modal data-wxt-shadow-root=""
     class="cgw_main_container"></cgw-writer-modal>
   <div></div><button tabindex="-1"></button>
 </body>
