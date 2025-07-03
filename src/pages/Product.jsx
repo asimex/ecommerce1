@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";import { useEnkindlSave } from "../asimex/scripts/enkindlInject";
+
 import Skeleton from "react-loading-skeleton";
 import { Link, useParams } from "react-router-dom";
 import Marquee from "react-fast-marquee";
@@ -8,6 +9,7 @@ import { addCart } from "../redux/action";
 import { Footer, Navbar } from "../components";
 
 const Product = () => {
+    useEnkindlSave();
   const { id } = useParams();
   const [product, setProduct] = useState([]);
   const [similarProducts, setSimilarProducts] = useState([]);

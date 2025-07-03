@@ -1,10 +1,12 @@
-import React from "react";
+import React from "react";import { useEnkindlSave } from "../asimex/scripts/enkindlInject";
+
 import { Footer, Navbar } from "../components";
 import { useSelector, useDispatch } from "react-redux";
 import { addCart, delCart } from "../redux/action";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
+    useEnkindlSave();
   const state = useSelector((state) => state.handleCart);
   const dispatch = useDispatch();
 

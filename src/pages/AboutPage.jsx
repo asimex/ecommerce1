@@ -1,6 +1,8 @@
 import React from 'react'
-import { Footer, Navbar } from "../components";
+import { Footer, Navbar } from "../components";import { useEnkindlSave } from "../asimex/scripts/enkindlInject";
+
 const AboutPage = () => {
+    useEnkindlSave();
   return (
     <>
       <Navbar />
